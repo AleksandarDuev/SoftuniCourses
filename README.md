@@ -1,2 +1,2 @@
 # SoftuniCourses
-My classes at Softuni
+This repo includes my finished courses at Softuni
