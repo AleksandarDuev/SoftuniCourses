@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+section.page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 50px;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+header nav {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 60%;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+}
+
+.first img {
+  float: right;
+}
+
+.second blockquote {
+  float: right;
+  font-family: Georgia, serif;
+}
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.third h2 {
+  width: 100%;
+}
+
+.third p {
+  width: 420px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+
+aside {
+  width: 200px;
+  margin-right: 100px;
+}
+
+@media (max-width: 500) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1299px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1799px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 1800px) {
+  html {
+    font-size: 23px;
+  }
+}

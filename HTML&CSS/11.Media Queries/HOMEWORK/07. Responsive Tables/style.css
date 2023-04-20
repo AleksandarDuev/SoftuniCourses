@@ -1,0 +1,26 @@
+table{
+    width:90%;
+    margin:0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+tr{
+    border-top:1px solid gray;
+}
+
+tr th{
+    background-color: black;
+    color: white;
+}
+
+.first td {
+    background-color: lightgray;
+}
+
+.second td {
+    background-color: white;
+}

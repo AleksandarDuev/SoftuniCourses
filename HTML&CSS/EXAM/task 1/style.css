@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
+
+html {
+  font-family: Courgette, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header div {
+  text-align: center;
+  position: relative;
+  height: 80px;
+}
+
+header h1 {
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: #cb3244;
+  position: absolute;
+  bottom: 0px;
+  right: 860px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+main .card-item {
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+main .divider {
+  height: 1px;
+  width: 90%;
+  background-color: #cb3244;
+  margin: 10px auto;
+}
+
+main .card-item img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+main .card-item .more {
+  bottom: 5px;
+}
+
+main .card-item .more .icon {
+  background-color: #cb3244;
+  margin-bottom: 10px;
+  border-radius: 80%;
+}

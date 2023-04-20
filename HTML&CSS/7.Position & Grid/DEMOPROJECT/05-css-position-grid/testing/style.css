@@ -1,0 +1,49 @@
+example-sides {
+  margin-bottom: 72px;
+}
+
+.moved {
+  position: relative;
+  background-color: aqua;
+  padding: 6px;
+  /* top: 12px; */
+  /* bottom: 12px; */
+  /* left: 12px; */
+  /* right: 12px; */
+}
+
+/* static */
+.example-static {
+  border: 1px dashed black;
+  padding: 12px;
+}
+
+.example-static .first-element {
+  padding: 6px;
+  background-color: #5be073;
+}
+.example-static .second-element {
+  padding: 6px;
+  background-color: rgb(0, 119, 255);
+}
+
+/* relative */
+.example-relative {
+    border: 1px dashed black;
+    padding: 12px;
+  }
+  
+  .example-relative .first-element {
+    padding: 6px;
+    background-color: #5be073;
+  }
+  .example-relative .second-element {
+    padding: 6px;
+    background-color: rgb(0, 119, 255);
+  }
+
+/* absolute */
+
+/* fixed */
+
+/* sticky */

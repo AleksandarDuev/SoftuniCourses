@@ -1,0 +1,35 @@
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
+
+div.viewport {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+div.viewport.first {
+  background-color: lightblue;
+}
+
+div.viewport.second {
+  background-color: purple;
+}
+
+.viewport .card {
+  display: block;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.viewport .card img {
+  width: 100%;
+}
+
+.viewport .card i {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+}
