@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 600px;
+  }
+
+  main :last-child {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main :last-child img{
+    width: 600px;
+    margin: 0px;
+    padding: 0px;
+  }
+}

@@ -1,0 +1,30 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body header {
+  display: flex;
+  border-bottom: 2px solid rgb(0,0,0);
+}
+
+header nav {
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  align-self: flex-end;
+}
+
+header nav span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+  margin-right: 15px;
+}

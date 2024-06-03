@@ -1,0 +1,14 @@
+p {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0053ff;
+  border-radius: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-style: dotted;
+  border-left-color: #89af4c;
+  text-align: center;
+  
+}

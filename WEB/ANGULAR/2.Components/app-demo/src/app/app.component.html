@@ -1,0 +1,16 @@
+<!-- //<div>{{title}}</div>
+
+
+
+<button (click)="buttonClickHandler()">CLICK ME</button>
+
+<ul>
+  <li *ngFor=" let user of users">
+    <span>Name: {{user.name}}</span>
+    <span> - Age:{{user.age}}</span>
+  </li>
+</ul> -->
+<div *ngIf="showText">VISIBLE</div>
+<button (click)="toggleText()">{{showText ? 'HIDE': 'SHOW' }}</button>
+
+<!-- <app-home></app-home> -->

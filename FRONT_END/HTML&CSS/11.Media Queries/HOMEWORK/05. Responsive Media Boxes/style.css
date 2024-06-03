@@ -1,0 +1,36 @@
+*{
+    font-family:Helvetica, sans-serif ;
+}
+
+body{
+    background-color: rgb(238,238,238);
+}
+section{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    background-color: rgb(255,255,255);
+}
+
+.img{
+    margin-bottom:none;
+}
+
+.desc{
+    position: relative;
+    height: 120px;
+    margin-top:none;
+}
+
+button{
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    font-family:Georgia, serif;
+    font-size:1em/1.2;  
+}

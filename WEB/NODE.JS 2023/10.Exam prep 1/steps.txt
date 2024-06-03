@@ -1,0 +1,14 @@
+1. copy skeleton in  the exam folder.
+2. open skeleton in vs Code
+3.copy static and view folders  from resources in skeleton
+4. install libraries (npm install)
+5. change DB name according exam
+
+6.change  layout/main home page, register page and login page 
+fix paths in templates
+change the fields in controllers accoriding the requierments(for login and register)
+
+TEST!!!
+second item model
+7.create page 
+8. catalog page

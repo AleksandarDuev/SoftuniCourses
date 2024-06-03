@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+div.page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 50px;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+header nav {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 60%;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+}
+
+.first img {
+  float: right;
+}
+
+.second blockquote {
+  float: right;
+  font-family: Georgia, serif;
+}
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.third h2 {
+  width: 100%;
+}
+
+.third p {
+  width: 420px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
+
+aside {
+  width: 200px;
+  margin-right: 100px;
+}

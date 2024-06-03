@@ -1,0 +1,20 @@
+body {
+  display: flex;
+}
+
+body section{
+    max-width: 80%;
+    justify-content:center;
+    gap:20px;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section ul li {
+  display: flex;
+  border: 5px solid black;
+}

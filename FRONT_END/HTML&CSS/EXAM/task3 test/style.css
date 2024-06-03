@@ -1,0 +1,24 @@
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
+
+section {
+    width:70%;
+  position: relative;
+  
+}
+
+main section img {
+  width: 100vw;
+}
+
+main section .header {
+  width: 100vw;
+  position: absolute;
+  font-size: 50px;
+  top: 100px;
+  left: 300px;
+  text-align: left;
+}
+
+main section .header .first {
+  margin-right: 950px;
+}

@@ -1,0 +1,37 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  display: inline-block;
+}
+
+span ~ ul {
+  margin-left: 50px;
+}
+
+hr {
+  height: 1px;
+  color: black;
+  background-color: black;
+}

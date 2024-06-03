@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.cards-layout {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 1500px;
+  max-width: 60vw;
+  gap: 25px;
+}
+
+.cards-layout.flex {
+  /* align-items: stretch; */
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 18.5vw;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background-color: rgba(238, 238, 238);
+
+  align-items: stretch;
+}
+
+h2 {
+  margin-left: 290px;
+}
+
+img {
+  width: 100%;
+}

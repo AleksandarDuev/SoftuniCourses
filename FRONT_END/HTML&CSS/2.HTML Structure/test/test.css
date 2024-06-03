@@ -1,0 +1,18 @@
+/* @font-face {
+  font-family: "Smooch";
+  src: url(Smooch-Regular.ttf);
+}
+
+from fonts.google.com download style and put it in the main folder, 
+after that use it at @font-face */
+
+h1 {
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  font-family: "Smooch";
+  font-size: 24px;
+}

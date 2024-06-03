@@ -1,0 +1,86 @@
+Way of work:
+1. model
+2.service
+3. controller (actions)
+4. view
+
+order of construct:
+1.authorization
+2.main collection
+3.create
+4.catalog
+5.details
+6.edit
+7.delete
+8. other functionality/ validation
+
+
+Order of task:
+
+1. copy skeleton in  the exam folder.
+2. open skeleton in vs Code
+3.copy static and view folders  from resources in skeleton
+4. install libraries (npm install)
+5. change DB name according exam
+
+6. nodemon index.js
+
+7. in browser start localhost3000 and check home register nad login.
+8. in vscode fix TODO's
+- in index.js delete the placeholder
+-change model according requierments
+-change services/user.js same fields
+-same in controllers auth.js (filed names in controller must be the put in the html)
+
+9. create main.hbs
+- show error messages(if, each)
+
+-fix names and values
+
+10.create middleware userSession.js
+
+-show logic for the navigation (logged or not logged user) in main.hbs
+-in nav {{user.emal}}
+11.create new register.hbs
+-fix method, action, names and values
+-test register page!!
+-if radio button, check it!
+in register post create logic for male or female(const isMale...)
+-add logic in register hbs
+12. create login.hbs
+-fix links in main.hbs
+-test login
+13. create needed model
+
+14. in config/database, load all models
+15.create service/trip.js
+
+-make function createtrip
+
+-in middleware/preload, change name of the service
+-in service/trip.js create function get trip by id 
+
+16. create controllers.trip.js
+17. add trip contoller to config/routes
+18. create home.hbs
+19.create home controller
+-attach it to config/controllers
+-test!
+20. make create.hbs
+-fix all fields
+21. create 404.hbs if any
+-fix fields
+-in config routes na posledno mqst edin route koito hwa[a wsi4ki pyti6ta
+22.create catalog.hbs
+23.create partials/tripPreview
+24. in controllers/home.js make the action for get trips
+25. fix partial fields
+-test
+26. in controllers/home.js make the action for details
+27. make details.hbs
+28. create edit get and edit post in trip controller
+-make edit.hbs
+fix links in detail.hbs
+- in services make udoate trip
+29. make delete functionality
+-service/ deleteby id

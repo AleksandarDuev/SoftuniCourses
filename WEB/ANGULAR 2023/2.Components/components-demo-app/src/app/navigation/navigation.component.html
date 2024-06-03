@@ -1,0 +1,32 @@
+<div id="nav">
+    <!-- if condition -->
+    <!-- <span *ngIf="toggle">{{title}}</span>   -->
+    <!-- <span *ngIf="!toggle">Show</span>  -->
+
+    <!-- ternary like way -->
+    <!-- <span>{{toggle?"Show": "Hide"}}</span> -->
+
+
+    <h3>{{titleFromApp}}</h3>
+
+    <span *ngIf="isActive">
+        <ul>
+            <!-- *ngFor -->
+
+            <li *ngFor="let user of activeUsers">
+                <!-- dynamic add styles -->
+                <span [class.red]="user.age%2==0">
+                    {{user.name}}
+                </span>
+            </li>
+
+        </ul>
+    </span>
+    <span *ngIf="!isActive">
+        <p>Nothing is active</p>
+    </span>
+
+    <input [value]="inputValue" type="text">
+
+    <button (click)="handleClick()">Click me!</button>
+</div>
